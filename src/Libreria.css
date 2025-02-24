@@ -1,0 +1,137 @@
+/* Encabezado */
+.header {
+    text-align: center;
+    background-color: #4a90e2;
+    color: rgb(173, 40, 40);
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .header p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    padding: 20px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: rgb(82, 70, 189);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Formulario */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Botones */
+  .save-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #1e88e5;
+  }
+  
+  .delete-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Categorías */
+  .categories-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-item {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .category-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Barra de búsqueda */
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #4285f4;
+  }
+  
